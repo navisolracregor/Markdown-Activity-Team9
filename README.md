@@ -79,3 +79,5 @@ Interface	Preview
 💉 Donor Profile Page	
 
 📊 Blood Bank Inventory (Admin)
+
+# “Empowering lives through digital blood donation — one click, one drop, one life saved.”
