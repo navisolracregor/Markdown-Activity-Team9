@@ -74,10 +74,14 @@ Interface	Preview
 
 🏠 Home Page	
 
-📅 Blood Drive Listing	
+📍 Blood Drive Listing	
 
-💉 Donor Profile Page	
+🪪 Donor Profile Page	
 
-📊 Blood Bank Inventory (Admin)
+📈 Blood Bank Inventory (Admin)
+
+📋 Donor Listing
+
+## 🩸 Theme & Vision
 
 # “Empowering lives through digital blood donation — one click, one drop, one life saved.”
