@@ -1,1 +1,157 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Red Cross: Blood+ — Integrated Blood Donation Management System</title>
+  <meta name="description" content="Red Cross: Blood+ — Web & Mobile app for the Philippine Red Cross, Camarines Norte Chapter. Manage blood drives, donors, and inventory." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <img src="images/logo-placeholder.png" alt="Red Cross Blood+ logo" class="logo">
+      <div class="title-block">
+        <h1>🩸 <span class="brand">Red Cross:</span> <span class="accent">Blood+</span></h1>
+        <p class="subtitle">An Integrated Blood Donation Management System for the Philippine Red Cross — Camarines Norte Chapter</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap main">
+    <section class="card">
+      <h2>📖 Project Description</h2>
+      <p><strong>Red Cross: Blood+</strong> is a centralized <em>web and mobile application</em> developed for the
+      Philippine Red Cross — Camarines Norte Chapter. It streamlines management of blood donation drives, donor
+      registration, and blood bank inventory monitoring.</p>
+
+      <p>The system bridges aspiring and repeat donors with Red Cross administrators, providing real-time updates on
+      upcoming donation events and blood availability. It encourages public engagement through donor profiles,
+      educational content, and location-based information about nearby blood banks and drives.</p>
+    </section>
+
+    <section class="card">
+      <h2>🚀 Features</h2>
+
+      <div class="two-col">
+        <div>
+          <h3>🌐 Web Application (Admin Panel)</h3>
+          <ul>
+            <li><strong>Blood Drive Posting & Announcements</strong>
+              <ul class="sub">
+                <li>Add, edit, or delete blood donation drive posts.</li>
+                <li>View donor registrations per drive and monitor total blood volume collected.</li>
+              </ul>
+            </li>
+            <li><strong>Blood Bank Inventory Management</strong>
+              <ul class="sub">
+                <li>Monitor available blood volume by blood type (A+/A-/B+/B-/AB+/AB-/O+/O-).</li>
+                <li>Generate status reports per blood type.</li>
+              </ul>
+            </li>
+            <li><strong>Registered Donors Listing</strong>
+              <ul class="sub">
+                <li>Manage donor records (Name, Age, Sex, Blood Type, Height & Weight, Comorbidities).</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>📱 Mobile Application (Donor App)</h3>
+          <ul>
+            <li><strong>Donor Registration</strong> — new donor sign-up with required health details.</li>
+            <li><strong>Donor Profile Management</strong> — update info every six (6) months.</li>
+            <li><strong>Blood Banks Near Me</strong> — locate nearest Red Cross blood banks in Camarines Norte.</li>
+            <li><strong>Blood Drives Near Me</strong> — view upcoming Red Cross & affiliated NGO drives.</li>
+            <li><strong>Educational Corner</strong> — facts, tips, and benefits about blood donation.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>⚙️ Installation Steps (Hypothetical)</h2>
+      <p>Assumes repo structure: <code>/web</code> (admin) and <code>/mobile</code> (donor app).</p>
+
+      <div class="codeblock">
+<pre><code># Clone the repository
+git clone https://github.com/your-org/redcross-bloodplus.git
+cd redcross-bloodplus
+
+# Web (Admin)
+cd web
+npm install
+npm start
+
+# Mobile (Flutter)
+cd ../mobile
+flutter pub get
+flutter run
+</code></pre>
+      </div>
+
+      <ol>
+        <li>Create a <code>.env</code> file for backend (DB connection, Firebase keys). <strong>Do not commit secrets.</strong></li>
+        <li>Set up Firebase project: enable Auth and FCM for push notifications.</li>
+        <li>For production, deploy backend to Render/Heroku and use a managed Postgres (or Supabase).</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>🖼️ Screenshots / UI Mockups</h2>
+      <p>Replace placeholders in <code>/images</code> with actual screenshots.</p>
+
+      <div class="gallery">
+        <figure>
+          <img src="images/home-placeholder.png" alt="Home Page mockup">
+          <figcaption>🏠 Home Page</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/drives-placeholder.png" alt="Blood Drive Listing mockup">
+          <figcaption>📅 Blood Drive Listing</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/profile-placeholder.png" alt="Donor Profile mockup">
+          <figcaption>💉 Donor Profile Page</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/inventory-placeholder.png" alt="Admin Inventory mockup">
+          <figcaption>📊 Blood Bank Inventory (Admin)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🧩 Project Info</h2>
+      <p><strong>Developed by:</strong> Group [Number], College of Computer Studies — Mabini Colleges Inc.<br>
+      <strong>Client:</strong> Philippine Red Cross — Camarines Norte Chapter</p>
+
+      <h3>Suggested Tech Stack</h3>
+      <ul class="stack">
+        <li>Mobile: <strong>Flutter</strong> (Dart)</li>
+        <li>Web: <strong>React.js</strong></li>
+        <li>Backend: <strong>Node.js + Express</strong></li>
+        <li>Database: <strong>PostgreSQL</strong></li>
+        <li>Notifications: <strong>Firebase Cloud Messaging</strong></li>
+      </ul>
+
+      <p class="muted">Publish with GitHub Pages (for static site) or export to PDF for submission. To submit source: zip repository and upload to Google Classroom.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Red Cross: Blood+ — Philippine Red Cross (Camarines Norte) • Made with ❤️</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
