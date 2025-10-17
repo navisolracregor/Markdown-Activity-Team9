@@ -70,18 +70,32 @@ npm start
 
 ## 🖼️ Screenshots / UI Mockups
 
-Interface	Preview
+---
 
-🏠 Home Page	
+### 🏠 Home Page
+![Home Page Mockup](Photos/dray.jpg)
 
-📍 Blood Drive Listing	
+---
 
-🪪 Donor Profile Page	
+### 📅 Blood Drive Listing
+![Blood Drive Listing Mockup](Photos/michael.jpg)
 
-📈 Blood Bank Inventory (Admin)
+---
 
-📋 Donor Listing
+### 💉 Donor Profile Page
+![Donor Profile Mockup](Photos/rea.jpg)
 
-## 🩸 Theme & Vision
+---
 
-# “Empowering lives through digital blood donation — one click, one drop, one life saved.”
+### 📊 Blood Bank Inventory (Admin)
+![Blood Bank Inventory Mockup](Photos/ella.jpg)
+
+---
+
+### 📋 Registered Donors (Admin)
+![Registered Donors Mockup](Photos/ivan.jpg)
+
+
+# 🩸 Theme & Vision
+
+## “Empowering lives through digital blood donation — one click, one drop, one life saved.”
