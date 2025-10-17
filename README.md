@@ -73,27 +73,26 @@ npm start
 ---
 
 ### 🏠 Home Page
-![Home Page Mockup](Photos/dray.jpg)
-
+<p><img src="Photos/dray.jpg" alt="Home Page" width="250"/></p>
 ---
 
 ### 📅 Blood Drive Listing
-![Blood Drive Listing Mockup](Photos/michael.jpg)
+<p><img src="Photos/michael.jpg" alt="Home Page" width="250"/></p>
 
 ---
 
 ### 💉 Donor Profile Page
-![Donor Profile Mockup](Photos/rea.jpg)
+<p><img src="Photos/rea.jpg" alt="Home Page" width="250"/></p>
 
 ---
 
 ### 📊 Blood Bank Inventory (Admin)
-![Blood Bank Inventory Mockup](Photos/ella.jpg)
+<p><img src="Photos/ella.jpg" alt="Home Page" width="250"/></p>
 
 ---
 
 ### 📋 Registered Donors (Admin)
-![Registered Donors Mockup](Photos/ivan.jpg)
+<p><img src="Photos/ivan.jpg" alt="Home Page" width="250"/></p>
 
 
 # 🩸 Theme & Vision
