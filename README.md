@@ -1,4 +1,4 @@
-# 🩸 Red Cross: Blood+
+# 🩸 Red Cross: Blood+ – An Integrated Blood Donation Management System for the Philippine Red Cross, Camarines Norte Chapter
 
 ## 📖 Project Description
 **Red Cross: Blood+** is a centralized **web and mobile application** designed for the **Philippine Red Cross – Camarines Norte Chapter**.  
